@@ -95,7 +95,7 @@ if selected_country:
             st.markdown(f"**Youth unemployment rate**<br>{factbook_data['Economy']['Youth unemployment rate (ages 15-24)']['total']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
-            load_indicator_country_data_from_cache("SL.TLF.CACT.FM.ZS", "lldcs", selected_country)
+            indicator_data = load_indicator_country_data_from_cache("SL.TLF.CACT.FM.ZS", "lldcs", selected_country)
             display_chart(indicator_data, "Labor force participation rate for ages 15-24 (% of population)", "World Bank")
 
             st.markdown(f"**Unemployment rate**<br>{factbook_data['Economy']['Unemployment rate']['Unemployment rate 2023']['text']}", unsafe_allow_html=True)
