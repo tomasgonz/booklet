@@ -78,13 +78,13 @@ if selected_country:
     with col1:
             st.subheader("Environment")
 
-            st.markdown(f"**Climate**<br>{factbook_data["Environment"]["Climate"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**Current environmental issues**<br>{factbook_data['Environment']['Environment - current issues']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
             indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.KT", "lldcs", selected_country)
             display_chart(indicator_data, "CO2 emissions ((kt))", "World Bank")
             
-            st.markdown(f"**Current environmental issues**<br>{factbook_data["Environment"]["Environment - current issues"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**Current environmental issues**<br>{factbook_data['Environment']['Environment - current issues']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
             indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.PC", "lldcs", selected_country)
@@ -92,13 +92,13 @@ if selected_country:
 
             st.subheader("Labor force")
             
-            st.markdown(f"**Youth unemployment rate**<br>{factbook_data["Economy"]["Youth unemployment rate (ages 15-24)"]["total"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**Youth unemployment rate**<br>{factbook_data['Economy']['Youth unemployment rate (ages 15-24)']['total']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
             load_indicator_country_data_from_cache("SL.TLF.CACT.FM.ZS", "lldcs", selected_country)
             display_chart(indicator_data, "Labor force participation rate for ages 15-24 (% of population)", "World Bank")
 
-            st.markdown(f"**Unemployment rate**<br>{factbook_data["Economy"]["Unemployment rate"]['Unemployment rate 2023']['text']}", unsafe_allow_html=True)
+            st.markdown(f"**Unemployment rate**<br>{factbook_data['Economy']['Unemployment rate']['Unemployment rate 2023']['text']}", unsafe_allow_html=True)
             
             # Load the data for the selected country
             indicator_data = load_indicator_country_data_from_cache("SL.UEM.TOTL.ZS", "lldcs", selected_country)
@@ -106,20 +106,20 @@ if selected_country:
 
             st.subheader("Population")
 
-            st.markdown(f"**Population**<br>{factbook_data['People and Society']["Population distribution"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**Population**<br>{factbook_data['People and Society']['Population distribution']['text']}", unsafe_allow_html=True)
 
             st.subheader("Education")
             
-            st.markdown(f"**Education expenditure**<br>{factbook_data["People and Society"]["Education expenditures"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**Education expenditure**<br>{factbook_data['People and Society']['Education expenditures']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
             indicator_data = load_indicator_country_data_from_cache("SE.PRM.NENR", "lldcs", selected_country)
             display_chart(indicator_data, "Net enrollment rate, primary (% of primary school age children)", "World Bank")
 
             st.subheader("Connectivity")
-            st.markdown(f"**% connected to internet**<br>{factbook_data["Communications"]["Internet users"]["percent of population"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**% connected to internet**<br>{factbook_data['Communications']['Internet users']['percent of population']['text']}", unsafe_allow_html=True)
 
-            st.markdown(f"**% connected to fixed broadband**<br>{factbook_data["Communications"]["Broadband - fixed subscriptions"]["subscriptions per 100 inhabitants"]["text"]}", unsafe_allow_html=True)
+            st.markdown(f"**% connected to fixed broadband**<br>{factbook_data['Communications']['Broadband - fixed subscriptions']['subscriptions per 100 inhabitants']['text']}", unsafe_allow_html=True)
 
             # Load the data for the selected country
             indicator_data = load_indicator_country_data_from_cache("IT.NET.BBND.P2", "lldcs", selected_country)
@@ -132,13 +132,13 @@ if selected_country:
         if (country_data[0]['demonyms']):
                 st.markdown(f"**Demonym**<br> {country_data[0]['demonyms']['eng']['m']}", unsafe_allow_html=True)
         
-        st.markdown(f'**Translation**<br>\
+        st.markdown(f"**Translation**<br>\
                     {country_data[0]['name']['official']}\
                     {country_data[0]['translations']['ara']['official']}<br>\
                     {country_data[0]['translations']['zho']['official']}<br>\
                             {country_data[0]['translations']['fra']['official']}<br>\
                                 {country_data[0]['translations']['rus']['official']}<br>\
-                                    {country_data[0]['translations']['spa']['official']}', unsafe_allow_html=True)
+                                    {country_data[0]['translations']['spa']['official']}", unsafe_allow_html=True)
 
         st.markdown(f"**Capital**<br> {country_data[0]['capital'][0]}", unsafe_allow_html=True)
         st.markdown(f"**Region**<br> {country_data[0]['region']}", unsafe_allow_html=True)
@@ -150,8 +150,8 @@ if selected_country:
         border_countries = [get_name_from_iso3(border) for border in country_data[0]['borders']]
         border_countries.sort()
         st.markdown(f"**Borders**<br> {', '.join(border_countries)}", unsafe_allow_html=True) 
-        st.markdown(f"**Main export partners**<br>{factbook_data["Economy"]["Exports - partners"]["text"]}", unsafe_allow_html=True)
-        st.markdown(f"**Main import partners**<br>{factbook_data["Economy"]["Imports - partners"]["text"]}", unsafe_allow_html=True)
-        st.markdown(f"**Main export products**<br>{factbook_data["Economy"]["Exports - commodities"]["text"]}", unsafe_allow_html=True)
-        st.markdown(f"**Main import products**<br>{factbook_data["Economy"]["Imports - commodities"]["text"]}", unsafe_allow_html=True)
+        st.markdown(f"**Main export partners**<br>{factbook_data['Economy']['Exports - partners']['text']}", unsafe_allow_html=True)
+        st.markdown(f"**Main import partners**<br>{factbook_data['Economy']['Imports - partners']['text']}", unsafe_allow_html=True)
+        st.markdown(f"**Main export products**<br>{factbook_data['Economy']['Exports - commodities']['text']}", unsafe_allow_html=True)
+        st.markdown(f"**Main import products**<br>{factbook_data['Economy']['Imports - commodities']['text']}", unsafe_allow_html=True)
 
