@@ -89,7 +89,7 @@ indicators = {
     }
 }
 
-CACHE_DIR = '/Users/tomas/booklet/cache'
+CACHE_DIR = './cache'
 
 def get_indicator(indicator_code, group_code):
     indicator = indicators.get(indicator_code)
