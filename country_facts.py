@@ -41,7 +41,7 @@ def load_country_data(country_code):
     return [country for country in data if country['cca3'] == country_code]
 
 def load_factbook_data(country_code):
-    filename = f"{country_code}.json"
+    filename = f"{country_code.lower()}.json"
     file_path = os.path.join("./factbook",  filename)
     with open(file_path, 'r') as file:
         data = json.load(file)
