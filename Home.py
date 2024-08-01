@@ -104,7 +104,6 @@ if selected_country:
             indicator_data = load_indicator_country_data_from_cache("SL.UEM.TOTL.ZS", "lldcs", selected_country)
             display_chart(indicator_data, "Unemployment, total (% of total labor force)", "World Bank")
 
-
             if 'Population distribution' in factbook_data['People and Society']:
                 st.subheader("Population")
                 st.markdown(f"**Population**<br>{factbook_data['People and Society']['Population distribution']['text']}", unsafe_allow_html=True)
@@ -126,6 +125,43 @@ if selected_country:
             indicator_data = load_indicator_country_data_from_cache("IT.NET.BBND.P2", "lldcs", selected_country)
             display_chart(indicator_data, "Fixed broadband subscriptions (per 100 people)", "World Bank")   
 
+            st.subheader("Economy")
+            st.markdown(f"**Main manufactured products**<br>{factbook_data['Economy']['Industries']['text']}", unsafe_allow_html=True)
+
+            st.markdown(f"**Main agricultural products**<br>{factbook_data['Economy']['Agricultural products']['text']}", unsafe_allow_html=True)
+
+            st.markdown(f"##### Macroecoonomic indicators", unsafe_allow_html=True)
+
+            indicator_data = load_indicator_country_data_from_cache("NY.GDP.MKTP.PP.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "GDP (current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("NY.GDP.PCAP.PP.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "GDP per capita (current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("FP.CPI.TOTL.ZG", "lldcs", selected_country)
+            display_chart(indicator_data, "Inflation, consumer prices (annual %)", "World Bank")
+
+            st.markdown(f"##### Trade", unsafe_allow_html=True)
+
+            indicator_data = load_indicator_country_data_from_cache("BN.CAB.XOKA.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "Current account balance (current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("NE.EXP.GNFS.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "Exports of goods and services (current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("NE.IMP.GNFS.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "Imports of goods and services (current US$)", "World Bank")
+
+            st.markdown(f"##### Debt and reserves", unsafe_allow_html=True)
+
+            indicator_data = load_indicator_country_data_from_cache("DT.DOD.DECT.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "External debt (current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("FI.RES.TOTL.CD", "lldcs", selected_country)
+            display_chart(indicator_data, "Total reserves (includes gold, current US$)", "World Bank")
+
+            indicator_data = load_indicator_country_data_from_cache("GC.DOD.TOTL.CN", "lldcs", selected_country)
+            display_chart(indicator_data, "Central government debt, total (current LCU)", "World Bank")
         
     with col2:
         st.image(f"https://flagcdn.com/w320/{selected_country_iso2.lower()}.png")

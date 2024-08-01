@@ -86,6 +86,50 @@ indicators = {
     'IT.CEL.SETS.P2': {
         'source': 'World Bank',
         'description': 'Mobile cellular subscriptions (per 100 people)'
+    },
+    'SH.H2O.SAFE.ZS': {
+        'source': 'World Bank',
+        'description': 'Improved water source (% of population with access)'
+    },
+    'SH.STA.ACSN': {
+        'source': 'World Bank',
+        'description': 'Improved sanitation facilities (% of population with access)'
+    },
+    'SH.DYN.MORT': {
+        'source': 'World Bank',
+        'description': 'Mortality rate, under-5 (per 1,000 live births)'
+    },
+    'FP.CPI.TOTL.ZG': {
+        'source': 'World Bank',
+        'description': 'Inflation, consumer prices (annual %)'
+    },
+    'BN.CAB.XOKA.CD': {
+        'source': 'World Bank',
+        'description': 'Current account balance (BoP, current US$)'
+    },
+    'NE.EXP.GNFS.CD': {
+        'source': 'World Bank',
+        'description': 'Exports of goods and services (BoP, current US$)'
+    },
+    'NE.IMP.GNFS.CD': {
+        'source': 'World Bank',
+        'description': 'Imports of goods and services (BoP, current US$)'
+    },
+    'NE.TRD.GNFS.CD': {
+        'source': 'World Bank',
+        'description': 'Trade in goods and services (BoP, current US$)'
+    },
+    'DT.DOD.DECT.CD': {
+        'source': 'World Bank',
+        'description': 'External debt stocks, total (DOD, current US$)'
+    },
+    'FI.RES.TOTL.CD': {
+        'source': 'World Bank',
+        'description': 'Total reserves (includes gold, current US$)'
+    },
+    'GC.DOD.TOTL.CN': {
+        'source': 'World Bank',
+        'description': 'Central government debt, total (current LCU)'
     }
 }
 

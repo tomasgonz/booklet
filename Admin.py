@@ -4,7 +4,7 @@ from country_facts import fetch_and_cache_countries_data
 import os
 import shutil
 
-# st.button("Download all indicators", on_click=download_all_indicators("lldcs"))
+st.button("Download all indicators", on_click=download_all_indicators("lldcs"))
 
 st.button("Fetch and cache countries data", on_click=fetch_and_cache_countries_data)
 
