@@ -1,0 +1,54 @@
+{
+    "gid": "can",
+    "acronym": "CAN",
+    "classifier": "CAN",
+    "domains": [
+        "Latin America and the Caribbean"
+    ],
+    "name": "Andean Community",
+    "description": "The Andean Community (Spanish: Comunidad Andina, CAN) is a free trade area with the objective of creating a customs union comprising the South American countries of Bolivia, Colombia, Ecuador, and Peru. The trade bloc was called the Andean Pact until 1996 and came into existence when the Cartagena Agreement was signed in 1969. Its headquarters are in Lima, Peru.",
+    "names": [
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        }
+    ]
+}

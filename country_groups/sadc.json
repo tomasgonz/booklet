@@ -1,0 +1,174 @@
+{
+    "gid": "sadc",
+    "acronym": "SADC",
+    "classifier": "SADC",
+    "domains": [
+        "Africa"
+    ],
+    "name": "SADC",
+    "description": "The Southern African Development Community is an inter-governmental organization headquartered in Gaborone, Botswana. Its goal is to further socio-economic cooperation and integration as well as political and security cooperation among 16 southern African countries.",
+    "names": [
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Eswatini",
+            "ISO": "SZ",
+            "ISO3": "SWZ"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Madagascar",
+            "ISO": "MG",
+            "ISO3": "MDG"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Namibia",
+            "ISO": "NA",
+            "ISO3": "NAM"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Tanzania",
+            "ISO": "TZ",
+            "ISO3": "TZA"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        },
+        {
+            "name": "Zimbabwe",
+            "ISO": "ZW",
+            "ISO3": "ZWE"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": "CD",
+            "ISO3": "COD"
+        },
+        {
+            "name": "Eswatini",
+            "ISO": "SZ",
+            "ISO3": "SWZ"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Madagascar",
+            "ISO": "MG",
+            "ISO3": "MDG"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Namibia",
+            "ISO": "NA",
+            "ISO3": "NAM"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Tanzania",
+            "ISO": "TZ",
+            "ISO3": "TZA"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        },
+        {
+            "name": "Zimbabwe",
+            "ISO": "ZW",
+            "ISO3": "ZWE"
+        }
+    ]
+}

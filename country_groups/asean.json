@@ -1,0 +1,114 @@
+{
+    "gid": "asean",
+    "acronym": "ASEAN",
+    "classifier": "ASEAN",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "Association of Southeast Asian Nations",
+    "description": "The Association of Southeast Asian Nations[9] (ASEAN; /\u02c8\u0251\u02d0si\u0251\u02d0n/ AH-see-ahn,[10] /\u02c8\u0251\u02d0zi\u0251\u02d0n/ AH-zee-ahn)[11][12] is a regional intergovernmental organization comprising ten countries in Southeast Asia, which promotes intergovernmental cooperation and facilitates economic, political, security, military, educational, and sociocultural integration among its members and other countries in Asia.",
+    "names": [
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Laos",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Vietnam",
+            "ISO": "VN",
+            "ISO3": "VNM"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Laos",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Vietnam",
+            "ISO": "VN",
+            "ISO3": "VNM"
+        }
+    ]
+}

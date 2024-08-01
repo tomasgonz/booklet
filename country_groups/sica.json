@@ -1,0 +1,94 @@
+{
+    "gid": "sica",
+    "acronym": "SICA",
+    "classifier": "SICA",
+    "domains": [
+        "Latin America and the Caribbean"
+    ],
+    "name": "Central American Integration System",
+    "description": "The Community of Portuguese Language Countries, also known as the Lusophone Commonwealth, is an international organization and political association of Lusophone nations across four continents, where Portuguese is an official language.",
+    "names": [
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        }
+    ]
+}

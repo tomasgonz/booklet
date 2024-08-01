@@ -1,0 +1,570 @@
+{
+    "gid": "oic",
+    "acronym": "OIC",
+    "classifier": "Organization of the Islamic Cooperation",
+    "domains": [
+        "UNGA",
+        "Arab World"
+    ],
+    "name": "Organization of the Islamic Cooperation",
+    "description": "The Organisation of Islamic Cooperation (OIC; Arabic: \u0645\u0646\u0638\u0645\u0629 \u0627\u0644\u062a\u0639\u0627\u0648\u0646 \u0627\u0644\u0625\u0633\u0644\u0627\u0645\u064a\u200e; French: Organisation de la coop\u00e9ration islamique), formerly the Organisation of the Islamic Conference, is an international organization founded in 1969, consisting of 57 member states, with a collective population of over 1.8 billion as of 2015 with 53 countries being Muslim-majority countries. The organisation states that it is the collective voice of the Muslim world and works to safeguard and protect the interests of the Muslim world in the spirit of promoting international peace and harmony.",
+    "names": [
+        {
+            "name": "Algeria",
+            "ISO": "DZ",
+            "ISO3": "DZA"
+        },
+        {
+            "name": "Benin",
+            "ISO": "BJ",
+            "ISO3": "BEN"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Cameroon",
+            "ISO": "CM",
+            "ISO3": "CMR"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Djibouti",
+            "ISO": "DJ",
+            "ISO3": "DJI"
+        },
+        {
+            "name": "Egypt, Arab Rep.",
+            "ISO": "EG",
+            "ISO3": "EGY"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Gambia",
+            "ISO": "GM",
+            "ISO3": "GMB"
+        },
+        {
+            "name": "Guinea",
+            "ISO": "GN",
+            "ISO3": "GIN"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Ivory Coast",
+            "ISO": "CI",
+            "ISO3": "CIV"
+        },
+        {
+            "name": "Libya",
+            "ISO": "LY",
+            "ISO3": "LBY"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Mauritania",
+            "ISO": "MR",
+            "ISO3": "MRT"
+        },
+        {
+            "name": "Morocco",
+            "ISO": "MA",
+            "ISO3": "MAR"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Nigeria",
+            "ISO": "NG",
+            "ISO3": "NGA"
+        },
+        {
+            "name": "Senegal",
+            "ISO": "SN",
+            "ISO3": "SEN"
+        },
+        {
+            "name": "Sierra Leone",
+            "ISO": "SL",
+            "ISO3": "SLE"
+        },
+        {
+            "name": "Somalia",
+            "ISO": "SO",
+            "ISO3": "SOM"
+        },
+        {
+            "name": "Sudan",
+            "ISO": "SD",
+            "ISO3": "SDN"
+        },
+        {
+            "name": "Togo",
+            "ISO": "TG",
+            "ISO3": "TGO"
+        },
+        {
+            "name": "Tunisia",
+            "ISO": "TN",
+            "ISO3": "TUN"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Palestine",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Yemen",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        },
+        {
+            "name": "Albania",
+            "ISO": "AL",
+            "ISO3": "ALB"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Algeria",
+            "ISO": "DZ",
+            "ISO3": "DZA"
+        },
+        {
+            "name": "Benin",
+            "ISO": "BJ",
+            "ISO3": "BEN"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Cameroon",
+            "ISO": "CM",
+            "ISO3": "CMR"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Djibouti",
+            "ISO": "DJ",
+            "ISO3": "DJI"
+        },
+        {
+            "name": "Egypt, Arab Rep.",
+            "ISO": "EG",
+            "ISO3": "EGY"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Gambia",
+            "ISO": "GM",
+            "ISO3": "GMB"
+        },
+        {
+            "name": "Guinea",
+            "ISO": "GN",
+            "ISO3": "GIN"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Libya",
+            "ISO": "LY",
+            "ISO3": "LBY"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Mauritania",
+            "ISO": "MR",
+            "ISO3": "MRT"
+        },
+        {
+            "name": "Morocco",
+            "ISO": "MA",
+            "ISO3": "MAR"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Nigeria",
+            "ISO": "NG",
+            "ISO3": "NGA"
+        },
+        {
+            "name": "Senegal",
+            "ISO": "SN",
+            "ISO3": "SEN"
+        },
+        {
+            "name": "Sierra Leone",
+            "ISO": "SL",
+            "ISO3": "SLE"
+        },
+        {
+            "name": "Somalia",
+            "ISO": "SO",
+            "ISO3": "SOM"
+        },
+        {
+            "name": "Sudan",
+            "ISO": "SD",
+            "ISO3": "SDN"
+        },
+        {
+            "name": "Togo",
+            "ISO": "TG",
+            "ISO3": "TGO"
+        },
+        {
+            "name": "Tunisia",
+            "ISO": "TN",
+            "ISO3": "TUN"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Palestine",
+            "ISO": "PS",
+            "ISO3": "PSE"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Yemen",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        },
+        {
+            "name": "Albania",
+            "ISO": "AL",
+            "ISO3": "ALB"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        }
+    ]
+}

@@ -1,0 +1,304 @@
+{
+    "gid": "g24",
+    "acronym": "G24",
+    "classifier": "G24",
+    "domains": [
+        "IMF"
+    ],
+    "name": "G24",
+    "description": "The Intergovernmental Group of Twenty-Four on International Monetary Affairs and Development (G-24) coordinates the position of developing countries on monetary and development issues in the deliberations and decisions of the Bretton Woods Institutions (BWI). In particular, the G-24 focuses on issues on the agendas of the International Monetary and Financial Committee (IMFC) and the Development Committee (DC) as well as in other relevant international fora.\u200b",
+    "names": [
+        {
+            "name": "Algeria",
+            "ISO": "DZ",
+            "ISO3": "DZA"
+        },
+        {
+            "name": "Cote d'Ivoire",
+            "ISO": "CI",
+            "ISO3": "CIV"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Egypt, Arab Rep.",
+            "ISO": "EG",
+            "ISO3": "EGY"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Ghana",
+            "ISO": "GH",
+            "ISO3": "GHA"
+        },
+        {
+            "name": "Kenya",
+            "ISO": "KE",
+            "ISO3": "KEN"
+        },
+        {
+            "name": "Morocco",
+            "ISO": "MA",
+            "ISO3": "MAR"
+        },
+        {
+            "name": "Nigeria",
+            "ISO": "NG",
+            "ISO3": "NGA"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Sri Lanka",
+            "ISO": "LK",
+            "ISO3": "LKA"
+        },
+        {
+            "name": "Syria",
+            "ISO": "SY",
+            "ISO3": "SYR"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Algeria",
+            "ISO": "DZ",
+            "ISO3": "DZA"
+        },
+        {
+            "name": "Cote d'Ivoire",
+            "ISO": "CI",
+            "ISO3": "CIV"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": "CD",
+            "ISO3": "COD"
+        },
+        {
+            "name": "Egypt, Arab Rep.",
+            "ISO": "EG",
+            "ISO3": "EGY"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Ghana",
+            "ISO": "GH",
+            "ISO3": "GHA"
+        },
+        {
+            "name": "Kenya",
+            "ISO": "KE",
+            "ISO3": "KEN"
+        },
+        {
+            "name": "Morocco",
+            "ISO": "MA",
+            "ISO3": "MAR"
+        },
+        {
+            "name": "Nigeria",
+            "ISO": "NG",
+            "ISO3": "NGA"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Sri Lanka",
+            "ISO": "LK",
+            "ISO3": "LKA"
+        },
+        {
+            "name": "Syria",
+            "ISO": "SY",
+            "ISO3": "SYR"
+        }
+    ]
+}

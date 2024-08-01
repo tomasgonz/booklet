@@ -1,0 +1,559 @@
+{
+    "gid": "ap",
+    "acronym": "Asia Pacific",
+    "classifier": "United Nations General Assembly",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "Asia Pacific Group",
+    "description": "The Group of Asia and the Pacific Small Island Developing States (formerly the Asia Group), or Asia and the Pacific Group, consists of 55 Members States (27.5% of United Nations members) and is the second largest regional group by number of member states after the African Group. Its territory is composed of much of the continents of Asia and Oceania with the exception of a few countries.",
+    "names": [
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Democratic People's Republic of Korea",
+            "ISO": "KP",
+            "ISO3": "PRK"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lao People's Republic",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Micronesia (Federated States of)",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Mongolia",
+            "ISO": "MN",
+            "ISO3": "MNG"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Republic of Korea",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Sri Lanka",
+            "ISO": "LK",
+            "ISO3": "LKA"
+        },
+        {
+            "name": "Syria",
+            "ISO": "SY",
+            "ISO3": "SYR"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        },
+        {
+            "name": "Vietnam",
+            "ISO": "VN",
+            "ISO3": "VNM"
+        },
+        {
+            "name": "Yemen",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Democratic People's Republic of Korea",
+            "ISO": "KP",
+            "ISO3": "PRK"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Iran",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Micronesia (Federated States of)",
+            "ISO": "FM",
+            "ISO3": "FSM"
+        },
+        {
+            "name": "Mongolia",
+            "ISO": "MN",
+            "ISO3": "MNG"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Pakistan",
+            "ISO": "PK",
+            "ISO3": "PAK"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Philippines",
+            "ISO": "PH",
+            "ISO3": "PHL"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Republic of Korea",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Sri Lanka",
+            "ISO": "LK",
+            "ISO3": "LKA"
+        },
+        {
+            "name": "Syria",
+            "ISO": "SY",
+            "ISO3": "SYR"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        },
+        {
+            "name": "Vietnam",
+            "ISO": "VN",
+            "ISO3": "VNM"
+        },
+        {
+            "name": "Yemen",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        }
+    ]
+}

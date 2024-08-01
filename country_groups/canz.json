@@ -1,0 +1,44 @@
+{
+    "gid": "canz",
+    "acronym": "CAN Z",
+    "classifier": "United Nations General Assembly",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "CANZ",
+    "description": "On certain issues Canada, Australia and New Zealand coordinate their positions and may authorize one among them to speak or negotiate on behalf of all three.",
+    "names": [
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        }
+    ]
+}

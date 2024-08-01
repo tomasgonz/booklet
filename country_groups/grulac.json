@@ -1,0 +1,345 @@
+{
+    "gid": "grulac",
+    "acronym": "GRULAC",
+    "classifier": "United Nations General Assembly",
+    "domains": [
+        "UNGA",
+        "Latin America and the Caribbean"
+    ],
+    "name": "Latin America and the Caribbean Group",
+    "description": "The Latin American and Caribbean Group, or GRULAC, consists of 33 Members States (17% of all UN members). Its territory is composed of entirely of land from South and Central America, as well as some islands in the Caribbean and Mexico in North America . Any differences arise from the presence of dependent territories of European countries.",
+    "names": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "Venezuela (Bolivarian  Republic of)",
+            "ISO": null,
+            "ISO3": null
+        }
+    ],
+    "countries": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "Venezuela (Bolivarian  Republic of)",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        }
+    ]
+}

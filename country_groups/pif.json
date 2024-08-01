@@ -1,0 +1,170 @@
+{
+    "gid": "pif",
+    "acronym": "PIF",
+    "classifier": "Pacific Island Forum",
+    "domains": [
+        "Oceania",
+        "Pacific"
+    ],
+    "name": "Pacific Island Forum",
+    "description": "The Pacific Islands Forum is a political grouping of 16 independent and self-governing states. The host country of the annual Forum is also the chair for the year following the Forum.",
+    "names": [
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Cook Islands",
+            "ISO": "CK",
+            "ISO3": "COK"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "French Polynesia",
+            "ISO": "PF",
+            "ISO3": "PYF"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Micronesia",
+            "ISO": "FM",
+            "ISO3": "FSM"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "New Caledonia",
+            "ISO": "NC",
+            "ISO3": "NCL"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Niue",
+            "ISO": "NU",
+            "ISO3": "NIU"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        }
+    ]
+}

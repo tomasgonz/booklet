@@ -1,0 +1,364 @@
+{
+    "gid": "oas",
+    "acronym": "OAS",
+    "classifier": "OAS",
+    "domains": [
+        "Latin America and the Caribbean"
+    ],
+    "name": "Organization of American States",
+    "description": "The Organization of American States is the world\u2019s oldest regional organization, dating back to the First International Conference of American States, held in Washington, D.C., from October 1889 to April 1890. That meeting approved the establishment of the International Union of American Republics, and the stage was set for the weaving of a web of provisions and institutions that came to be known as the inter-American system, the oldest international institutional system. The OAS came into being in 1948 with the signing in Bogot\u00e1, Colombia, of the Charter of the OAS, which entered into force in December 1951. It was subsequently amended by the Protocol of Buenos Aires, signed in 1967, which entered into force in February 1970; by the Protocol of Cartagena de Indias, signed in 1985, which entered into force in November 1988; by the Protocol of Managua, signed in 1993, which entered into force in January 1996; and by the Protocol of Washington, signed in 1992, which entered into force in September 1997. The Organization was established in order to achieve among its member states\u2014as stipulated in Article 1 of the Charter\u2014an order of peace and justice, to promote their solidarity, to strengthen their collaboration, and to defend their sovereignty, their territorial integrity, and their independence. Today, the OAS brings together all 35 independent states of the Americas and constitutes the main political, juridical, and social governmental forum in the Hemisphere. In addition, it has granted permanent observer status to 69 states, as well as to the European Union (EU). The Organization uses a four-pronged approach to effectively implement its essential purposes, based on its main pillars: democracy, human rights, security, and development.",
+    "names": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "El Salvador",
+            "ISO": "SV",
+            "ISO3": "SLV"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Honduras",
+            "ISO": "HN",
+            "ISO3": "HND"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Nicaragua",
+            "ISO": "NI",
+            "ISO3": "NIC"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        }
+    ]
+}

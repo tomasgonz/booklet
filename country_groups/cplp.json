@@ -1,0 +1,107 @@
+{
+    "gid": "cplp",
+    "acronym": "CPLP",
+    "classifier": "CPLP",
+    "domains": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Latin America and the Caribbean"
+    ],
+    "name": "Community of Portuguese Speaking Countries",
+    "description": "The Community of Portuguese Language Countries, also known as the Lusophone Commonwealth, is an international organization and political association of Lusophone nations across four continents, where Portuguese is an official language.",
+    "names": [
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Cabo Verde",
+            "ISO": "CV",
+            "ISO3": "CPV"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Equatorial Guinea",
+            "ISO": "GQ",
+            "ISO3": "GNQ"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Cabo Verde",
+            "ISO": "CV",
+            "ISO3": "CPV"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Equatorial Guinea",
+            "ISO": "GQ",
+            "ISO3": "GNQ"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        }
+    ]
+}

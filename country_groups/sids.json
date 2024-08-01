@@ -1,0 +1,459 @@
+{
+    "gid": "sids",
+    "acronym": "SIDS",
+    "name": "Small Island Developing States",
+    "classifier": "United Nations",
+    "domains": [
+        "UNGA"
+    ],
+    "description": "Small Island Developing States (SIDS) are a group of small island countries that tend to share similar sustainable development challenges, including small but growing populations, limited resources, remoteness, susceptibility to natural disasters, vulnerability to external shocks, excessive dependence on international trade, and fragile environments.",
+    "names": [
+        {
+            "name": "American Samoa",
+            "ISO": "AS",
+            "ISO3": "ASM"
+        },
+        {
+            "name": "Anguilla",
+            "ISO": "AI",
+            "ISO3": "AIA"
+        },
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Aruba",
+            "ISO": "AW",
+            "ISO3": "ABW"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "British Virgin Islands",
+            "ISO": "VG",
+            "ISO3": "VGB"
+        },
+        {
+            "name": "Cape Verde",
+            "ISO": "CV",
+            "ISO3": "CPV"
+        },
+        {
+            "name": "Commonwealth of Northern Marianas",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Cook Islands",
+            "ISO": "CK",
+            "ISO3": "COK"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Federated States of Micronesia",
+            "ISO": "FM",
+            "ISO3": "FSM"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "French Polynesia",
+            "ISO": "PF",
+            "ISO3": "PYF"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guam",
+            "ISO": "GU",
+            "ISO3": "GUM"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "Montserrat",
+            "ISO": "MS",
+            "ISO3": "MSR"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "Netherlands Antilles",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "New Caledonia",
+            "ISO": "NC",
+            "ISO3": "NCL"
+        },
+        {
+            "name": "Niue",
+            "ISO": "NU",
+            "ISO3": "NIU"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Puerto Rico",
+            "ISO": "PR",
+            "ISO3": "PRI"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "St. Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "St. Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "US Virgin Islands",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Cape Verde",
+            "ISO": "CV",
+            "ISO3": "CPV"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Papua New Guinea",
+            "ISO": "PG",
+            "ISO3": "PNG"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "St. Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "St. Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Vanuatu",
+            "ISO": "VU",
+            "ISO3": "VUT"
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "gid": "eu",
+    "acronym": "EU",
+    "classifier": "European Union",
+    "domains": [
+        "Europe",
+        "UNGA"
+    ],
+    "name": "European Union",
+    "description": "The European Union is a unique economic and political union between 27 EU countries that together cover much of the continent. The predecessor of the EU was created in the aftermath of the Second World War. The first steps were to foster economic cooperation: the idea being that countries that trade with one another become economically interdependent and so more likely to avoid conflict. The result was the European Economic Community (EEC), created in 1958, and initially increasing economic cooperation between six countries: Belgium, Germany, France, Italy, Luxembourg and the Netherlands. Since then, 22 other members joined and a huge single market (also known as the 'internal' market) has been created and continues to develop towards its full potential. On 31 January 2020 the United Kingdom left the European Union. What began as a purely economic union has evolved into an organization spanning policy areas, from climate, environment and health to external relations and security, justice and migration. A name change from the European Economic Community (EEC) to the European Union (EU) in 1993 reflected this.",
+    "names": [
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Estonia",
+            "ISO": "EE",
+            "ISO3": "EST"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Latvia",
+            "ISO": "LV",
+            "ISO3": "LVA"
+        },
+        {
+            "name": "Lithuania",
+            "ISO": "LT",
+            "ISO3": "LTU"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Slovakia",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Estonia",
+            "ISO": "EE",
+            "ISO3": "EST"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Latvia",
+            "ISO": "LV",
+            "ISO3": "LVA"
+        },
+        {
+            "name": "Lithuania",
+            "ISO": "LT",
+            "ISO3": "LTU"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Slovakia",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        }
+    ]
+}

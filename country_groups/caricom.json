@@ -1,0 +1,161 @@
+{
+    "gid": "caricom",
+    "acronym": "CARICOM",
+    "classifier": "The Caribbean Community",
+    "domains": [
+        "UNGA",
+        "Latin America and the Caribbean",
+        "Caribbean"
+    ],
+    "name": "The Caribbean Community",
+    "description": "The Caribbean Community (CARICOM) is an organization of 15 Caribbean nations and dependencies. Its Chair rotates on a quarterly basis among its members. CARICOM has observer status and maintains a permanent office in NY.",
+    "names": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Montserrat",
+            "ISO": "MS",
+            "ISO3": "MSR"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Bahamas",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "Saint Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Saint Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        }
+    ]
+}

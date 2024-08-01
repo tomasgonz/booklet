@@ -1,0 +1,65 @@
+{
+    "gid": "nordic",
+    "acronym": "NORDIC",
+    "classifier": "United Nations General Assembly",
+    "domains": [
+        "UNGA",
+        "Europe"
+    ],
+    "name": "Nordic Countries",
+    "description": "The Nordic co-operation involves Denmark, Finland, Iceland, Norway and Sweden as well as the three autonomous areas. Its presidency rotates annually.",
+    "names": [
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        }
+    ]
+}

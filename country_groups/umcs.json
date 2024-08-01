@@ -1,0 +1,564 @@
+{
+    "gid": "umcs",
+    "acronym": "UMCs",
+    "classifier": "World Bank",
+    "name": "Upper middle income countries",
+    "domains": [
+        "World Bank"
+    ],
+    "description": "Upper Middle Income Economies a category established by the World Bank, for the 2021 fiscal year are defined as those with a GNI per capita between $4,046 and $12,535",
+    "names": [
+        {
+            "name": "Albania",
+            "ISO": "AL",
+            "ISO3": "ALB"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "Montenegro",
+            "ISO": "ME",
+            "ISO3": "MNE"
+        },
+        {
+            "name": "American Samoa",
+            "ISO": "AS",
+            "ISO3": "ASM"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Namibia",
+            "ISO": "NA",
+            "ISO3": "NAM"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Georgia",
+            "ISO": "GE",
+            "ISO3": "GEO"
+        },
+        {
+            "name": "North Macedonia",
+            "ISO": "MK",
+            "ISO3": "MKD"
+        },
+        {
+            "name": "Armenia",
+            "ISO": "AM",
+            "ISO3": "ARM"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "Belarus",
+            "ISO": "BY",
+            "ISO3": "BLR"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "ISO": "BA",
+            "ISO3": "BIH"
+        },
+        {
+            "name": "Iran, Islamic Rep.",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Serbia",
+            "ISO": "RS",
+            "ISO3": "SRB"
+        },
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "St. Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "St. Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Kosovo",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Libya",
+            "ISO": "LY",
+            "ISO3": "LBY"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Equatorial Guinea",
+            "ISO": "GQ",
+            "ISO3": "GNQ"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Albania",
+            "ISO": "AL",
+            "ISO3": "ALB"
+        },
+        {
+            "name": "Fiji",
+            "ISO": "FJ",
+            "ISO3": "FJI"
+        },
+        {
+            "name": "Montenegro",
+            "ISO": "ME",
+            "ISO3": "MNE"
+        },
+        {
+            "name": "Gabon",
+            "ISO": "GA",
+            "ISO3": "GAB"
+        },
+        {
+            "name": "Namibia",
+            "ISO": "NA",
+            "ISO3": "NAM"
+        },
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Georgia",
+            "ISO": "GE",
+            "ISO3": "GEO"
+        },
+        {
+            "name": "North Macedonia",
+            "ISO": "MK",
+            "ISO3": "MKD"
+        },
+        {
+            "name": "Armenia",
+            "ISO": "AM",
+            "ISO3": "ARM"
+        },
+        {
+            "name": "Grenada",
+            "ISO": "GD",
+            "ISO3": "GRD"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Guatemala",
+            "ISO": "GT",
+            "ISO3": "GTM"
+        },
+        {
+            "name": "Peru",
+            "ISO": "PE",
+            "ISO3": "PER"
+        },
+        {
+            "name": "Belarus",
+            "ISO": "BY",
+            "ISO3": "BLR"
+        },
+        {
+            "name": "Guyana",
+            "ISO": "GY",
+            "ISO3": "GUY"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Belize",
+            "ISO": "BZ",
+            "ISO3": "BLZ"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Samoa",
+            "ISO": "WS",
+            "ISO3": "WSM"
+        },
+        {
+            "name": "Bosnia and Herzegovina",
+            "ISO": "BA",
+            "ISO3": "BIH"
+        },
+        {
+            "name": "Iran, Islamic Rep.",
+            "ISO": "IR",
+            "ISO3": "IRN"
+        },
+        {
+            "name": "Serbia",
+            "ISO": "RS",
+            "ISO3": "SRB"
+        },
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Iraq",
+            "ISO": "IQ",
+            "ISO3": "IRQ"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Jamaica",
+            "ISO": "JM",
+            "ISO3": "JAM"
+        },
+        {
+            "name": "St. Lucia",
+            "ISO": "LC",
+            "ISO3": "LCA"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Jordan",
+            "ISO": "JO",
+            "ISO3": "JOR"
+        },
+        {
+            "name": "St. Vincent and the Grenadines",
+            "ISO": "VC",
+            "ISO3": "VCT"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Suriname",
+            "ISO": "SR",
+            "ISO3": "SUR"
+        },
+        {
+            "name": "Colombia",
+            "ISO": "CO",
+            "ISO3": "COL"
+        },
+        {
+            "name": "Thailand",
+            "ISO": "TH",
+            "ISO3": "THA"
+        },
+        {
+            "name": "Costa Rica",
+            "ISO": "CR",
+            "ISO3": "CRI"
+        },
+        {
+            "name": "Lebanon",
+            "ISO": "LB",
+            "ISO3": "LBN"
+        },
+        {
+            "name": "Tonga",
+            "ISO": "TO",
+            "ISO3": "TON"
+        },
+        {
+            "name": "Cuba",
+            "ISO": "CU",
+            "ISO3": "CUB"
+        },
+        {
+            "name": "Libya",
+            "ISO": "LY",
+            "ISO3": "LBY"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Dominica",
+            "ISO": "DM",
+            "ISO3": "DMA"
+        },
+        {
+            "name": "Malaysia",
+            "ISO": "MY",
+            "ISO3": "MYS"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Dominican Republic",
+            "ISO": "DO",
+            "ISO3": "DOM"
+        },
+        {
+            "name": "Maldives",
+            "ISO": "MV",
+            "ISO3": "MDV"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Equatorial Guinea",
+            "ISO": "GQ",
+            "ISO3": "GNQ"
+        },
+        {
+            "name": "Marshall Islands",
+            "ISO": "MH",
+            "ISO3": "MHL"
+        },
+        {
+            "name": "Venezuela",
+            "ISO": "VE",
+            "ISO3": "VEN"
+        },
+        {
+            "name": "Ecuador",
+            "ISO": "EC",
+            "ISO3": "ECU"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        }
+    ]
+}

@@ -1,0 +1,486 @@
+{
+    "gid": "ldcs",
+    "acronym": "LDCs",
+    "classifier": "United Nations",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "Least Developed Countries",
+    "description": "The least developed countries (LDCs) is a list of developing countries that, according to the United Nations, exhibit the lowest indicators of socioeconomic development, with the lowest Human Development Index ratings of all countries in the world.",
+    "story": [
+        {
+            "type": "paragraph",
+            "text": "The least developed countries (LDCs) is a list of developing countries that, according to the United Nations, exhibit the lowest indicators of socioeconomic development, with the lowest Human Development Index ratings of all countries in the world."
+        },
+        {
+            "type": "weighted_average",
+            "indicator": "",
+            "average": "",
+            "groups": "LDCs, LLDCs, SIDS"
+        }
+    ],
+    "names": [
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Benin",
+            "ISO": "BJ",
+            "ISO3": "BEN"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Burundi",
+            "ISO": "BI",
+            "ISO3": "BDI"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "Central African Republic",
+            "ISO": "CF",
+            "ISO3": "CAF"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Djibouti",
+            "ISO": "DJ",
+            "ISO3": "DJI"
+        },
+        {
+            "name": "Eritrea",
+            "ISO": "ER",
+            "ISO3": "ERI"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Gambia, The",
+            "ISO": "GM",
+            "ISO3": "GMB"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Guinea",
+            "ISO": "GN",
+            "ISO3": "GIN"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Lao PDR",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Liberia",
+            "ISO": "LR",
+            "ISO3": "LBR"
+        },
+        {
+            "name": "Madagascar",
+            "ISO": "MG",
+            "ISO3": "MDG"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Mauritania",
+            "ISO": "MR",
+            "ISO3": "MRT"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Rwanda",
+            "ISO": "RW",
+            "ISO3": "RWA"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Senegal",
+            "ISO": "SN",
+            "ISO3": "SEN"
+        },
+        {
+            "name": "Sierra Leone",
+            "ISO": "SL",
+            "ISO3": "SLE"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Somalia",
+            "ISO": "SO",
+            "ISO3": "SOM"
+        },
+        {
+            "name": "South Sudan",
+            "ISO": "SS",
+            "ISO3": "SSD"
+        },
+        {
+            "name": "Sudan",
+            "ISO": "SD",
+            "ISO3": "SDN"
+        },
+        {
+            "name": "Tanzania",
+            "ISO": "TZ",
+            "ISO3": "TZA"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Togo",
+            "ISO": "TG",
+            "ISO3": "TGO"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Yemen, Rep.",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Angola",
+            "ISO": "AO",
+            "ISO3": "AGO"
+        },
+        {
+            "name": "Bangladesh",
+            "ISO": "BD",
+            "ISO3": "BGD"
+        },
+        {
+            "name": "Benin",
+            "ISO": "BJ",
+            "ISO3": "BEN"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Burundi",
+            "ISO": "BI",
+            "ISO3": "BDI"
+        },
+        {
+            "name": "Cambodia",
+            "ISO": "KH",
+            "ISO3": "KHM"
+        },
+        {
+            "name": "Central African Republic",
+            "ISO": "CF",
+            "ISO3": "CAF"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Comoros",
+            "ISO": "KM",
+            "ISO3": "COM"
+        },
+        {
+            "name": "Congo, Dem. Rep.",
+            "ISO": "CD",
+            "ISO3": "COD"
+        },
+        {
+            "name": "Djibouti",
+            "ISO": "DJ",
+            "ISO3": "DJI"
+        },
+        {
+            "name": "Eritrea",
+            "ISO": "ER",
+            "ISO3": "ERI"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Gambia, The",
+            "ISO": "GM",
+            "ISO3": "GMB"
+        },
+        {
+            "name": "Guinea-Bissau",
+            "ISO": "GW",
+            "ISO3": "GNB"
+        },
+        {
+            "name": "Guinea",
+            "ISO": "GN",
+            "ISO3": "GIN"
+        },
+        {
+            "name": "Haiti",
+            "ISO": "HT",
+            "ISO3": "HTI"
+        },
+        {
+            "name": "Kiribati",
+            "ISO": "KI",
+            "ISO3": "KIR"
+        },
+        {
+            "name": "Lao PDR",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Liberia",
+            "ISO": "LR",
+            "ISO3": "LBR"
+        },
+        {
+            "name": "Madagascar",
+            "ISO": "MG",
+            "ISO3": "MDG"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Mauritania",
+            "ISO": "MR",
+            "ISO3": "MRT"
+        },
+        {
+            "name": "Mozambique",
+            "ISO": "MZ",
+            "ISO3": "MOZ"
+        },
+        {
+            "name": "Myanmar",
+            "ISO": "MM",
+            "ISO3": "MMR"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Rwanda",
+            "ISO": "RW",
+            "ISO3": "RWA"
+        },
+        {
+            "name": "Sao Tome and Principe",
+            "ISO": "ST",
+            "ISO3": "STP"
+        },
+        {
+            "name": "Senegal",
+            "ISO": "SN",
+            "ISO3": "SEN"
+        },
+        {
+            "name": "Sierra Leone",
+            "ISO": "SL",
+            "ISO3": "SLE"
+        },
+        {
+            "name": "Solomon Islands",
+            "ISO": "SB",
+            "ISO3": "SLB"
+        },
+        {
+            "name": "Somalia",
+            "ISO": "SO",
+            "ISO3": "SOM"
+        },
+        {
+            "name": "South Sudan",
+            "ISO": "SS",
+            "ISO3": "SSD"
+        },
+        {
+            "name": "Sudan",
+            "ISO": "SD",
+            "ISO3": "SDN"
+        },
+        {
+            "name": "Tanzania",
+            "ISO": "TZ",
+            "ISO3": "TZA"
+        },
+        {
+            "name": "Timor-Leste",
+            "ISO": "TL",
+            "ISO3": "TLS"
+        },
+        {
+            "name": "Togo",
+            "ISO": "TG",
+            "ISO3": "TGO"
+        },
+        {
+            "name": "Tuvalu",
+            "ISO": "TV",
+            "ISO3": "TUV"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Yemen, Rep.",
+            "ISO": "YE",
+            "ISO3": "YEM"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        }
+    ]
+}

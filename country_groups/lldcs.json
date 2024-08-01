@@ -1,0 +1,334 @@
+{
+    "gid": "lldcs",
+    "acronym": "LLDCs",
+    "classifier": "United Nations",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "Landlocked Developing Countries",
+    "description": "Lack of territorial access to the sea, remoteness and isolation from world markets and high transit costs continue to impose serious constraints on the overall socio-economic development of landlocked developing countries.",
+    "names": [
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Burundi",
+            "ISO": "BI",
+            "ISO3": "BDI"
+        },
+        {
+            "name": "Central African Republic",
+            "ISO": "CF",
+            "ISO3": "CAF"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Rwanda",
+            "ISO": "RW",
+            "ISO3": "RWA"
+        },
+        {
+            "name": "South Sudan",
+            "ISO": "SS",
+            "ISO3": "SSD"
+        },
+        {
+            "name": "Eswatini",
+            "ISO": "SZ",
+            "ISO3": "SWZ"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        },
+        {
+            "name": "Zimbabwe",
+            "ISO": "ZW",
+            "ISO3": "ZWE"
+        },
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lao PDR",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Mongolia",
+            "ISO": "MN",
+            "ISO3": "MNG"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Armenia",
+            "ISO": "AM",
+            "ISO3": "ARM"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Moldova",
+            "ISO": "MD",
+            "ISO3": "MDA"
+        },
+        {
+            "name": "North Macedonia",
+            "ISO": "MK",
+            "ISO3": "MKD"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Botswana",
+            "ISO": "BW",
+            "ISO3": "BWA"
+        },
+        {
+            "name": "Burkina Faso",
+            "ISO": "BF",
+            "ISO3": "BFA"
+        },
+        {
+            "name": "Burundi",
+            "ISO": "BI",
+            "ISO3": "BDI"
+        },
+        {
+            "name": "Central African Republic",
+            "ISO": "CF",
+            "ISO3": "CAF"
+        },
+        {
+            "name": "Chad",
+            "ISO": "TD",
+            "ISO3": "TCD"
+        },
+        {
+            "name": "Ethiopia",
+            "ISO": "ET",
+            "ISO3": "ETH"
+        },
+        {
+            "name": "Lesotho",
+            "ISO": "LS",
+            "ISO3": "LSO"
+        },
+        {
+            "name": "Malawi",
+            "ISO": "MW",
+            "ISO3": "MWI"
+        },
+        {
+            "name": "Mali",
+            "ISO": "ML",
+            "ISO3": "MLI"
+        },
+        {
+            "name": "Niger",
+            "ISO": "NE",
+            "ISO3": "NER"
+        },
+        {
+            "name": "Rwanda",
+            "ISO": "RW",
+            "ISO3": "RWA"
+        },
+        {
+            "name": "South Sudan",
+            "ISO": "SS",
+            "ISO3": "SSD"
+        },
+        {
+            "name": "Eswatini",
+            "ISO": "SZ",
+            "ISO3": "SWZ"
+        },
+        {
+            "name": "Uganda",
+            "ISO": "UG",
+            "ISO3": "UGA"
+        },
+        {
+            "name": "Zambia",
+            "ISO": "ZM",
+            "ISO3": "ZMB"
+        },
+        {
+            "name": "Zimbabwe",
+            "ISO": "ZW",
+            "ISO3": "ZWE"
+        },
+        {
+            "name": "Afghanistan",
+            "ISO": "AF",
+            "ISO3": "AFG"
+        },
+        {
+            "name": "Bhutan",
+            "ISO": "BT",
+            "ISO3": "BTN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Kyrgyz Republic",
+            "ISO": "KG",
+            "ISO3": "KGZ"
+        },
+        {
+            "name": "Lao PDR",
+            "ISO": "LA",
+            "ISO3": "LAO"
+        },
+        {
+            "name": "Mongolia",
+            "ISO": "MN",
+            "ISO3": "MNG"
+        },
+        {
+            "name": "Nepal",
+            "ISO": "NP",
+            "ISO3": "NPL"
+        },
+        {
+            "name": "Tajikistan",
+            "ISO": "TJ",
+            "ISO3": "TJK"
+        },
+        {
+            "name": "Turkmenistan",
+            "ISO": "TM",
+            "ISO3": "TKM"
+        },
+        {
+            "name": "Uzbekistan",
+            "ISO": "UZ",
+            "ISO3": "UZB"
+        },
+        {
+            "name": "Armenia",
+            "ISO": "AM",
+            "ISO3": "ARM"
+        },
+        {
+            "name": "Azerbaijan",
+            "ISO": "AZ",
+            "ISO3": "AZE"
+        },
+        {
+            "name": "Moldova",
+            "ISO": "MD",
+            "ISO3": "MDA"
+        },
+        {
+            "name": "North Macedonia",
+            "ISO": "MK",
+            "ISO3": "MKD"
+        },
+        {
+            "name": "Bolivia",
+            "ISO": "BO",
+            "ISO3": "BOL"
+        },
+        {
+            "name": "Paraguay",
+            "ISO": "PY",
+            "ISO3": "PRY"
+        }
+    ]
+}

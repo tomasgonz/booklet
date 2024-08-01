@@ -1,0 +1,304 @@
+{
+    "gid": "weog",
+    "acronym": "WEOG",
+    "classifier": "United Nations General Assembly",
+    "domains": [
+        "UNGA"
+    ],
+    "name": "Western Europe and Others Group",
+    "description": "The Western European and Others Group, or WEOG, consists of 28 Members States (15% of United Nations members). Its territory is composed of land dispersed on all of the continents, but mostly centered in Western Europe and North America. Additionally, the United States states acts as an observer, as it is not formally part of any regional group. ",
+    "names": [
+        {
+            "name": "Andorra",
+            "ISO": "AD",
+            "ISO3": "AND"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Israel",
+            "ISO": "IL",
+            "ISO3": "ISR"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Liechtenstein",
+            "ISO": "LI",
+            "ISO3": "LIE"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Monaco",
+            "ISO": "MC",
+            "ISO3": "MCO"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "San Marino",
+            "ISO": "SM",
+            "ISO3": "SMR"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Andorra",
+            "ISO": "AD",
+            "ISO3": "AND"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Israel",
+            "ISO": "IL",
+            "ISO3": "ISR"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Liechtenstein",
+            "ISO": "LI",
+            "ISO3": "LIE"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Monaco",
+            "ISO": "MC",
+            "ISO3": "MCO"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "San Marino",
+            "ISO": "SM",
+            "ISO3": "SMR"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ]
+}

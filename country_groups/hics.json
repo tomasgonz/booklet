@@ -1,0 +1,734 @@
+{
+    "gid": "hics",
+    "acronym": "HICs",
+    "classifier": "World Bank",
+    "name": "High Income economies",
+    "domains": [
+        "World Bank"
+    ],
+    "description": "High Income Economies, a category established by the World Bank, for the 2021 fiscal year, are defined as those with a GNI per capita of $12,536 or more.",
+    "names": [
+        {
+            "name": "Aruba",
+            "ISO": "AW",
+            "ISO3": "ABW"
+        },
+        {
+            "name": "Andorra",
+            "ISO": "AD",
+            "ISO3": "AND"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bahamas, The",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Bermuda",
+            "ISO": "BM",
+            "ISO3": "BMU"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Channel Islands",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Curacao",
+            "ISO": "CW",
+            "ISO3": "CUW"
+        },
+        {
+            "name": "Cayman Islands",
+            "ISO": "KY",
+            "ISO3": "CYM"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Estonia",
+            "ISO": "EE",
+            "ISO3": "EST"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Faroe Islands",
+            "ISO": "FO",
+            "ISO3": "FRO"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "Gibraltar",
+            "ISO": "GI",
+            "ISO3": "GIB"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Greenland",
+            "ISO": "GL",
+            "ISO3": "GRL"
+        },
+        {
+            "name": "Guam",
+            "ISO": "GU",
+            "ISO3": "GUM"
+        },
+        {
+            "name": "Hong Kong SAR, China",
+            "ISO": "HK",
+            "ISO3": "HKG"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Isle of Man",
+            "ISO": "IM",
+            "ISO3": "IMN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Israel",
+            "ISO": "IL",
+            "ISO3": "ISR"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Liechtenstein",
+            "ISO": "LI",
+            "ISO3": "LIE"
+        },
+        {
+            "name": "Lithuania",
+            "ISO": "LT",
+            "ISO3": "LTU"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Latvia",
+            "ISO": "LV",
+            "ISO3": "LVA"
+        },
+        {
+            "name": "Macao SAR, China",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "St. Martin (French part)",
+            "ISO": "MF",
+            "ISO3": "MAF"
+        },
+        {
+            "name": "Monaco",
+            "ISO": "MC",
+            "ISO3": "MCO"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Northern Mariana Islands",
+            "ISO": "MP",
+            "ISO3": "MNP"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "New Caledonia",
+            "ISO": "NC",
+            "ISO3": "NCL"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Puerto Rico",
+            "ISO": "PR",
+            "ISO3": "PRI"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "French Polynesia",
+            "ISO": "PF",
+            "ISO3": "PYF"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "San Marino",
+            "ISO": "SM",
+            "ISO3": "SMR"
+        },
+        {
+            "name": "Slovak Republic",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Sint Maarten (Dutch part)",
+            "ISO": "SX",
+            "ISO3": "SXM"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "Turks and Caicos Islands",
+            "ISO": "TC",
+            "ISO3": "TCA"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Taiwan, China",
+            "ISO": "TW",
+            "ISO3": "TWN"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        },
+        {
+            "name": "British Virgin Islands",
+            "ISO": "VG",
+            "ISO3": "VGB"
+        },
+        {
+            "name": "Virgin Islands (U.S.)",
+            "ISO": null,
+            "ISO3": null
+        }
+    ],
+    "countries": [
+        {
+            "name": "Andorra",
+            "ISO": "AD",
+            "ISO3": "AND"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        },
+        {
+            "name": "Antigua and Barbuda",
+            "ISO": "AG",
+            "ISO3": "ATG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Bahamas, The",
+            "ISO": "BS",
+            "ISO3": "BHS"
+        },
+        {
+            "name": "Barbados",
+            "ISO": "BB",
+            "ISO3": "BRB"
+        },
+        {
+            "name": "Brunei Darussalam",
+            "ISO": "BN",
+            "ISO3": "BRN"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Chile",
+            "ISO": "CL",
+            "ISO3": "CHL"
+        },
+        {
+            "name": "Cyprus",
+            "ISO": "CY",
+            "ISO3": "CYP"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Estonia",
+            "ISO": "EE",
+            "ISO3": "EST"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Iceland",
+            "ISO": "IS",
+            "ISO3": "ISL"
+        },
+        {
+            "name": "Israel",
+            "ISO": "IL",
+            "ISO3": "ISR"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "St. Kitts and Nevis",
+            "ISO": "KN",
+            "ISO3": "KNA"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Liechtenstein",
+            "ISO": "LI",
+            "ISO3": "LIE"
+        },
+        {
+            "name": "Lithuania",
+            "ISO": "LT",
+            "ISO3": "LTU"
+        },
+        {
+            "name": "Luxembourg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "Latvia",
+            "ISO": "LV",
+            "ISO3": "LVA"
+        },
+        {
+            "name": "Monaco",
+            "ISO": "MC",
+            "ISO3": "MCO"
+        },
+        {
+            "name": "Malta",
+            "ISO": "MT",
+            "ISO3": "MLT"
+        },
+        {
+            "name": "Mauritius",
+            "ISO": "MU",
+            "ISO3": "MUS"
+        },
+        {
+            "name": "Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Nauru",
+            "ISO": "NR",
+            "ISO3": "NRU"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Panama",
+            "ISO": "PA",
+            "ISO3": "PAN"
+        },
+        {
+            "name": "Palau",
+            "ISO": "PW",
+            "ISO3": "PLW"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "Singapore",
+            "ISO": "SG",
+            "ISO3": "SGP"
+        },
+        {
+            "name": "San Marino",
+            "ISO": "SM",
+            "ISO3": "SMR"
+        },
+        {
+            "name": "Slovak Republic",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Seychelles",
+            "ISO": "SC",
+            "ISO3": "SYC"
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "ISO": "TT",
+            "ISO3": "TTO"
+        },
+        {
+            "name": "Uruguay",
+            "ISO": "UY",
+            "ISO3": "URY"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ]
+}

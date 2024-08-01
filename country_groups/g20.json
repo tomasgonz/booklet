@@ -1,0 +1,208 @@
+{
+    "gid": "g20",
+    "acronym": "G20",
+    "classifier": "G20",
+    "domains": [
+        "Asia",
+        "Africa",
+        "Europe",
+        "Latin America and the Caribbean",
+        "Oceania"
+    ],
+    "name": "G20",
+    "description": "Originated in 1999 at the level of Finance Ministers and Central Bank Governors, the G20 gathered for high-level discussions on macro-financial issues. In the wake of the 2008 global financial crisis, the G20 was elevated to include the leaders of member countries. The first G20 Leaders Summit took place in Washington D.C. in November 2008. Consequently, the G20 agenda expanded beyond macro-financial issues, to include socio-economic and development issues. Throughout the year, representatives from G20 countries gather to discuss financial and socioeconomic issues.\u200b",
+    "names": [
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "\u200b\u200b\u200bTurkey",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        },
+        {
+            "name": "European Union",
+            "ISO": null,
+            "ISO3": null
+        }
+    ],
+    "countries": [
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Brazil",
+            "ISO": "BR",
+            "ISO3": "BRA"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Indonesia",
+            "ISO": "ID",
+            "ISO3": "IDN"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Mexico",
+            "ISO": "MX",
+            "ISO3": "MEX"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ]
+}

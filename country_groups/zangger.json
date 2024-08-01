@@ -1,0 +1,404 @@
+{
+    "gid": "zangger",
+    "acronym": "zangger",
+    "classifier": "zangger",
+    "domains": [
+        "Peace and Security"
+    ],
+    "name": "Zangger Committee",
+    "description": "The Zangger Committee, also known as the Nuclear Exporters Committee, sprang from Article III.2 of the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) which entered into force on March 5, 1970. Under the terms of Article III.2 International Atomic Energy Agency (IAEA) safeguards must be applied to nuclear exports. ",
+    "names": [
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belarus",
+            "ISO": "BY",
+            "ISO3": "BLR"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Luxemburg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "The Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Slovakia",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Ukraine",
+            "ISO": "UA",
+            "ISO3": "UKR"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Argentina",
+            "ISO": "AR",
+            "ISO3": "ARG"
+        },
+        {
+            "name": "Australia",
+            "ISO": "AU",
+            "ISO3": "AUS"
+        },
+        {
+            "name": "Austria",
+            "ISO": "AT",
+            "ISO3": "AUT"
+        },
+        {
+            "name": "Belarus",
+            "ISO": "BY",
+            "ISO3": "BLR"
+        },
+        {
+            "name": "Belgium",
+            "ISO": "BE",
+            "ISO3": "BEL"
+        },
+        {
+            "name": "Bulgaria",
+            "ISO": "BG",
+            "ISO3": "BGR"
+        },
+        {
+            "name": "Canada",
+            "ISO": "CA",
+            "ISO3": "CAN"
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "Croatia",
+            "ISO": "HR",
+            "ISO3": "HRV"
+        },
+        {
+            "name": "Czech Republic",
+            "ISO": "CZ",
+            "ISO3": "CZE"
+        },
+        {
+            "name": "Denmark",
+            "ISO": "DK",
+            "ISO3": "DNK"
+        },
+        {
+            "name": "Finland",
+            "ISO": "FI",
+            "ISO3": "FIN"
+        },
+        {
+            "name": "France",
+            "ISO": "FR",
+            "ISO3": "FRA"
+        },
+        {
+            "name": "Germany",
+            "ISO": "DE",
+            "ISO3": "DEU"
+        },
+        {
+            "name": "Greece",
+            "ISO": "GR",
+            "ISO3": "GRC"
+        },
+        {
+            "name": "Hungary",
+            "ISO": "HU",
+            "ISO3": "HUN"
+        },
+        {
+            "name": "Ireland",
+            "ISO": "IE",
+            "ISO3": "IRL"
+        },
+        {
+            "name": "Italy",
+            "ISO": "IT",
+            "ISO3": "ITA"
+        },
+        {
+            "name": "Japan",
+            "ISO": "JP",
+            "ISO3": "JPN"
+        },
+        {
+            "name": "Kazakhstan",
+            "ISO": "KZ",
+            "ISO3": "KAZ"
+        },
+        {
+            "name": "Korea, Rep.",
+            "ISO": "KR",
+            "ISO3": "KOR"
+        },
+        {
+            "name": "Luxemburg",
+            "ISO": "LU",
+            "ISO3": "LUX"
+        },
+        {
+            "name": "The Netherlands",
+            "ISO": "NL",
+            "ISO3": "NLD"
+        },
+        {
+            "name": "New Zealand",
+            "ISO": "NZ",
+            "ISO3": "NZL"
+        },
+        {
+            "name": "Norway",
+            "ISO": "NO",
+            "ISO3": "NOR"
+        },
+        {
+            "name": "Poland",
+            "ISO": "PL",
+            "ISO3": "POL"
+        },
+        {
+            "name": "Portugal",
+            "ISO": "PT",
+            "ISO3": "PRT"
+        },
+        {
+            "name": "Romania",
+            "ISO": "RO",
+            "ISO3": "ROU"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "Slovakia",
+            "ISO": "SK",
+            "ISO3": "SVK"
+        },
+        {
+            "name": "Slovenia",
+            "ISO": "SI",
+            "ISO3": "SVN"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        },
+        {
+            "name": "Spain",
+            "ISO": "ES",
+            "ISO3": "ESP"
+        },
+        {
+            "name": "Sweden",
+            "ISO": "SE",
+            "ISO3": "SWE"
+        },
+        {
+            "name": "Switzerland",
+            "ISO": "CH",
+            "ISO3": "CHE"
+        },
+        {
+            "name": "Turkey",
+            "ISO": "TR",
+            "ISO3": "TUR"
+        },
+        {
+            "name": "Ukraine",
+            "ISO": "UA",
+            "ISO3": "UKR"
+        },
+        {
+            "name": "United Kingdom",
+            "ISO": "GB",
+            "ISO3": "GBR"
+        },
+        {
+            "name": "United States",
+            "ISO": "US",
+            "ISO3": "USA"
+        }
+    ]
+}

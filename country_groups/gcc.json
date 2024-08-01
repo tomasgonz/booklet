@@ -1,0 +1,74 @@
+{
+    "gid": "gcc",
+    "acronym": "GCC",
+    "classifier": "GCC",
+    "domains": [
+        "Arab World"
+    ],
+    "name": "Gulf Cooperation Council",
+    "description": "The Cooperation Council for the Arab States of the Gulf (Arabic: \u0645\u062c\u0644\u0633 \u0627\u0644\u062a\u0639\u0627\u0648\u0646 \u0644\u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c \u0627\u0644\u0639\u0631\u0628\u064a\u200e), originally (and still colloquially) known as the Gulf Cooperation Council (GCC, \u0645\u062c\u0644\u0633 \u0627\u0644\u062a\u0639\u0627\u0648\u0646 \u0627\u0644\u062e\u0644\u064a\u062c\u064a), is a regional intergovernmental political and economic union consisting of all Arab states of the Persian Gulf except Iraq, namely: Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates.[3] The Charter of the GCC was signed on 25 May 1981, formally establishing the institution.",
+    "names": [
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        }
+    ],
+    "countries": [
+        {
+            "name": "Bahrain",
+            "ISO": "BH",
+            "ISO3": "BHR"
+        },
+        {
+            "name": "Kuwait",
+            "ISO": "KW",
+            "ISO3": "KWT"
+        },
+        {
+            "name": "Oman",
+            "ISO": "OM",
+            "ISO3": "OMN"
+        },
+        {
+            "name": "Qatar",
+            "ISO": "QA",
+            "ISO3": "QAT"
+        },
+        {
+            "name": "Saudi Arabia",
+            "ISO": "SA",
+            "ISO3": "SAU"
+        },
+        {
+            "name": "United Arab Emirates",
+            "ISO": "AE",
+            "ISO3": "ARE"
+        }
+    ]
+}

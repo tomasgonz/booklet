@@ -1,0 +1,60 @@
+{
+    "gid": "brics",
+    "acronym": "BRICS",
+    "classifier": "BRICS",
+    "domains": [
+        "Africa",
+        "Asia"
+    ],
+    "name": "BRICS",
+    "description": "BRICS is the acronym coined for an association of five major emerging national economies.",
+    "names": [
+        {
+            "name": "Brazi",
+            "ISO": null,
+            "ISO3": null
+        },
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        }
+    ],
+    "countries": [
+        {
+            "name": "China",
+            "ISO": "CN",
+            "ISO3": "CHN"
+        },
+        {
+            "name": "India",
+            "ISO": "IN",
+            "ISO3": "IND"
+        },
+        {
+            "name": "Russian Federation",
+            "ISO": "RU",
+            "ISO3": "RUS"
+        },
+        {
+            "name": "South Africa",
+            "ISO": "ZA",
+            "ISO3": "ZAF"
+        }
+    ]
+}
