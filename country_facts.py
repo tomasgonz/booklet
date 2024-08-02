@@ -42,7 +42,7 @@ def load_country_data(country_code):
 
 def load_factbook_data(country_code):
     filename = f"{country_code.lower()}.json"
-    file_path = os.path.join("./cache/factbook",  filename)
+    file_path = os.path.join("cache/factbook",  filename)
     with open(file_path, 'r') as file:
         data = json.load(file)
         return data
