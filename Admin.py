@@ -11,7 +11,7 @@ import shutil
 
 def copy_json_files():
     parent_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), "factbook.json")
-    destination_folder = "cache/factbook"
+    destination_folder = "./cache/factbook"
     
     if not os.path.exists(destination_folder):
         os.makedirs(destination_folder)
