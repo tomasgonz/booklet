@@ -60,6 +60,10 @@ for country in group:
     flag = get_small_flag(iso3)
     st.sidebar.markdown(f"{flag} {country}")   
 
+# Disclaimer
+
+st.sidebar.markdown(f"The data presented here is for informational purposes only.  While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.", unsafe_allow_html=True)
+
 def normalize_dictionary(data):
     # Normalize the nested dictionary data
     df = pd.json_normalize(data)
