@@ -3,10 +3,46 @@ import pandas as pd
 from indicators import indicators, load_indicator_country_data_from_cache
 from groups import get_group_countries_name, get_iso3_from_name, get_name_from_iso3, get_fips_from_iso3, get_iso2_from_name
 from country_facts import load_country_data, load_factbook_data, country_small_flags, get_small_flag
+from quotes import quotes
+import random
+
+# Custom CSS for better font and spacing
+st.markdown("""
+    <style>
+    .reportview-container .main .block-container{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .sidebar .sidebar-content {
+        width: 250px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .card {
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 1rem 0;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
 #group_name = st.sidebar.selectbox("Select the group of countries", ["LDCs", "LLDCs", "SIDS"])
 group_name = "LLDCs"
-# Load the codes and descriptions to be used in this app
+
+# Random quote
+
+quote = quotes[random.randint(0, len(quotes)-1)]
+
+st.sidebar.markdown(f"*{quote['text']}*<br>**{quote['author']}**", unsafe_allow_html=True)
+
+st.sidebar.markdown(f"")
+
+# Load the codes and descriptions 
 data = {}
 for code in indicators:
     data[code] = {'source': indicators[code]['source'], 'description': indicators[code]['description']}
@@ -71,11 +107,13 @@ if selected_country:
 
     country_data = load_country_data(selected_country_iso3)
     factbook_data = load_factbook_data(selected_country_fips)
-    st.title(f" {selected_country}")
+    
     
     col1, col2 = st.columns([3, 1])
     
     with col1:
+            st.title(f" {selected_country}")
+                             
             st.subheader("Environment")
 
             st.markdown(f"**Climate**<br>{factbook_data['Environment']['Climate']['text']}", unsafe_allow_html=True)
