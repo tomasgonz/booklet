@@ -200,7 +200,7 @@ def get_world_bank_data(indicator_code, group_code):
 
 def download_all_indicators(group_code):
     for indicator_code in indicators:
-        sleep(20) # Sleep for 20 seconds between requests to avoid hitting the API rate limit
+        sleep(5) # Sleep for 20 seconds between requests to avoid hitting the API rate limit
         get_indicator(indicator_code, group_code)
 
 def load_indicator_country_data_from_cache(indicator_code, group_code, country_name):

@@ -4,9 +4,10 @@ from country_facts import fetch_and_cache_countries_data
 import os
 import shutil
 
-st.button("Download all indicators", on_click=download_all_indicators("lldcs"))
-
-st.button("Fetch and cache countries data", on_click=fetch_and_cache_countries_data)
+#st.button("Download all indicators for LLDCs", on_click=download_all_indicators("lldcs"))
+st.button("Download all indicators for LDCs", on_click=download_all_indicators("ldcs"))
+st.button("Download all indicators for SIDS", on_click=download_all_indicators("sids"))
+#st.button("Fetch and cache countries data", on_click=fetch_and_cache_countries_data)
 
 def copy_json_files():
     parent_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), "factbook.json")
