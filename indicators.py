@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 import os
 import json
-from country_groups.groups import get_group_countries_iso3
+from groups import get_group_countries_iso3
 from time import sleep
 
 indicators = {
@@ -133,7 +133,7 @@ indicators = {
     }
 }
 
-CACHE_DIR = './cache'
+CACHE_DIR = './cache/indicators'
 
 def get_indicator(indicator_code, group_code):
     indicator = indicators.get(indicator_code)

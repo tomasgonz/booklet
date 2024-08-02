@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from indicators import indicators, load_indicator_country_data_from_cache
-from country_groups.groups import get_group_countries_name, get_iso3_from_name, get_name_from_iso3, get_fips_from_iso3, get_iso2_from_name
+from groups import get_group_countries_name, get_iso3_from_name, get_name_from_iso3, get_fips_from_iso3, get_iso2_from_name
 from country_facts import load_country_data, load_factbook_data, country_small_flags, get_small_flag
 
 #group_name = st.sidebar.selectbox("Select the group of countries", ["LDCs", "LLDCs", "SIDS"])
@@ -172,10 +172,10 @@ if selected_country:
         
     with col2:
         st.image(f"https://flagcdn.com/w320/{selected_country_iso2.lower()}.png")
+        st.image(f"./cache/maps/{selected_country_iso2.lower()}_256.png")
         st.markdown(f"**Official name**<br> {country_data[0]['name']['official']}", unsafe_allow_html=True)
         if (country_data[0]['demonyms']):
                 st.markdown(f"**Demonym**<br> {country_data[0]['demonyms']['eng']['m']}", unsafe_allow_html=True)
-        
         st.markdown(f"**Translation**<br>\
                     {country_data[0]['name']['official']}\
                     {country_data[0]['translations']['ara']['official']}<br>\

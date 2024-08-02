@@ -3,7 +3,7 @@ import json
 import os
 
 # Define the file path for caching
-cache_dir = './country_groups'
+cache_dir = './cache'
 cache_file = os.path.join(cache_dir, 'country_facts.json')
 
 def fetch_and_cache_countries_data():
@@ -42,7 +42,7 @@ def load_country_data(country_code):
 
 def load_factbook_data(country_code):
     filename = f"{country_code.lower()}.json"
-    file_path = os.path.join("./factbook",  filename)
+    file_path = os.path.join("./cache/factbook",  filename)
     with open(file_path, 'r') as file:
         data = json.load(file)
         return data
