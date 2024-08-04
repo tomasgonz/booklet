@@ -5,18 +5,18 @@ from groups import get_group_countries_name, get_iso3_from_name, get_name_from_i
 from country_facts import load_country_data, load_factbook_data, country_small_flags, get_small_flag
 from quotes import quotes
 import random
+from maps import create_map_from_dms
+from streamlit_folium import st_folium
 
 # Custom CSS for better font and spacing
 st.markdown("""
     <style>
-    .reportview-container .main .block-container{
-        padding-top: 2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 2rem;
+    .reportview-container .main .block-container {
+        padding: 2rem;
+        font-family: 'Arial', sans-serif;
     }
     .sidebar .sidebar-content {
-        width: 250px;
+        width: 300px;
     }
     h1 {
         font-size: 2.5rem;
@@ -28,7 +28,81 @@ st.markdown("""
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin: 1rem 0;
     }
+    .metric-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+    }
+    .metric {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    /* Floating menu */
+    .floating-menu {
+        position: fixed;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        background: #ffffff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        transition: right 0.3s ease;
+    }
+    .floating-menu:hover {
+        right: 0;
+    }
+    .floating-menu a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 600;
+        display: block;
+        padding: 5px;
+        margin: 10px 0;
+        transition: all 0.3s ease;
+    }
+    .floating-menu a:hover {
+        color: #ffffff;
+        background-color: #007BFF;
+        border-radius: 5px;
+    }
+    .floating-menu .menu-header {
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .menu-content {
+        display: none;
+    }
+    .menu-content a {
+        display: block;
+        padding: 5px;
+        margin: 5px 0;
+    }
+    .menu-header:hover + .menu-content, .menu-content:hover {
+        display: block;
+    }
     </style>
+    """, unsafe_allow_html=True)
+
+# Floating menu with section links
+st.markdown("""
+    <div class="floating-menu">
+        <div class="menu-header">Sections</div>
+        <div class="menu-content">
+            <a href="#environment">Environment</a>
+            <a href="#labor-force">Labor Force</a>
+            <a href="#population">Population</a>
+            <a href="#education">Education</a>
+            <a href="#connectivity">Connectivity</a>
+            <a href="#economy">Economy</a>
+        </div>
+    </div>
     """, unsafe_allow_html=True)
 
 #group_name = st.sidebar.selectbox("Select the group of countries", ["LDCs", "LLDCs", "SIDS"])
@@ -214,6 +288,9 @@ if selected_country:
         
     with col2:
         st.image(f"https://flagcdn.com/w320/{selected_country_iso2.lower()}.png")
+        geographic_coordinates = factbook_data['Geography']['Geographic coordinates']['text']
+        st.markdown(f"**Geographic coordinates**<br>{geographic_coordinates}", unsafe_allow_html=True)
+
         st.image(f"./cache/maps/{selected_country_iso2.lower()}_256.png")
         st.markdown(f"**Official name**<br> {country_data[0]['name']['official']}", unsafe_allow_html=True)
         if (country_data[0]['demonyms']):
@@ -240,4 +317,3 @@ if selected_country:
         st.markdown(f"**Main import partners**<br>{factbook_data['Economy']['Imports - partners']['text']}", unsafe_allow_html=True)
         st.markdown(f"**Main export products**<br>{factbook_data['Economy']['Exports - commodities']['text']}", unsafe_allow_html=True)
         st.markdown(f"**Main import products**<br>{factbook_data['Economy']['Imports - commodities']['text']}", unsafe_allow_html=True)
-

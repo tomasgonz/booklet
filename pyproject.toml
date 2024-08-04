@@ -9,6 +9,10 @@ readme = "README.md"
 python = ">=3.11"
 streamlit = "^1.37.0"
 watchdog = "^4.0.1"
+folium = "^0.17.0"
+streamlit-folium = "^0.22.0"
+fpdf = "^1.7.2"
+html2text = "^2024.2.26"
 
 
 [build-system]
