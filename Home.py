@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from indicators import indicators, load_indicator_country_data_from_cache
 from groups import get_group_countries_name, get_iso3_from_name, get_name_from_iso3, get_fips_from_iso3, get_iso2_from_name
-from country_facts import load_country_data, load_factbook_data, country_small_flags, get_small_flag
+from country_facts import load_country_data, load_factbook_data, country_small_flags, get_small_flag, get_country_description
 from quotes import quotes
 import random
 from maps import create_map_from_dms
@@ -182,16 +182,17 @@ if selected_country:
     selected_country_iso2 = get_iso2_from_name(selected_country)
     selected_country_iso3 = get_iso3_from_name(selected_country, group_name.lower())
     selected_country_fips = get_fips_from_iso3(selected_country_iso3)
-
+    selected_country_profile = get_country_description(selected_country_iso3)
     country_data = load_country_data(selected_country_iso3)
     factbook_data = load_factbook_data(selected_country_fips)
-    
     
     col1, col2 = st.columns([3, 1])
     
     with col1:
             st.title(f" {selected_country}")
-                             
+            
+            st.markdown(f"{selected_country_profile}", unsafe_allow_html=True)
+
             st.subheader("Environment")
 
             st.markdown(f"**Climate**<br>{factbook_data['Environment']['Climate']['text']}", unsafe_allow_html=True)

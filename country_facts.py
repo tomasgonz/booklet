@@ -55,5 +55,19 @@ def get_small_flag(cca3):
     for item in country_small_flags:
         if item['cca3'] == cca3:
             return item['flag']
+        
+def load_country_qualitative_info():
+    filename = "countries.json"
+    file_path = os.path.join("cache",  filename)
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+        return data
+
+def get_country_description(iso3):
+    for item in country_qualitative_data:
+        if item['iso3'] == iso3:
+            return item['profile']
+
+country_qualitative_data = load_country_qualitative_info()
 
 country_small_flags = load_small_flags()
