@@ -149,9 +149,12 @@ if st.sidebar.button("Submit"):
         user_query = user_query.strip() + ". I would like this question to be answered about " + selected_country
         with st.spinner("Processing answer..."):
             openai_response = query_openai_api(user_query)
+            st.sidebar.markdown("""
+                **Disclaimer:** The information provided here is intended for informational purposes only. It may not be accurate or up-to-date. Always verify with reliable sources.
+            """)            
             st.sidebar.markdown(f"{openai_response}")
     else:
-        st.sidrbar.warning("Please enter a query.")
+        st.sidebar.warning("Please enter a query.")
 
 
 st.sidebar.markdown(f"# List of {group_name}")
