@@ -12,12 +12,14 @@ from maps import create_map_from_dms
 from streamlit_folium import st_folium
 
 load_dotenv()
-openai_api_key = os.getenv('OPENAI_API_KEY', st.secrets["openai"]["api_key"])
+openai_api_key = st.secrets["openai"]["api_key"]
+openai.api_key = openai_api_key
 def query_openai_api(prompt):
+
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {f"role": "system", "content": "You are an assistant that provides detailed country information."},
+            {f"role": "system", "content": "You are an assistant that provides detailed country information. You are factual and neutral in tone and views."},
             {"role": "user", "content": prompt}
         ]
     )
