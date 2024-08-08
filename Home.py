@@ -19,7 +19,7 @@ def query_openai_api(prompt):
     response = openai.chat.completions.create(
         model="gpt-4o",
         messages=[
-            {f"role": "system", "content": "You are an assistant that provides detailed country information. You are factual and neutral in tone and views."},
+            {f"role": "system", "content": "You are an assistant that provides detailed country information. You are factual and neutral in tone and views. You always try to provide an informative, yet constrcutive, forward looking and positive response and to avoid discuss any controversial or political topics."},
             {"role": "user", "content": prompt}
         ]
     )
@@ -131,8 +131,6 @@ quote = quotes[random.randint(0, len(quotes)-1)]
 
 st.sidebar.markdown(f"*{quote['text']}*<br>**{quote['author']}**", unsafe_allow_html=True)
 
-st.sidebar.markdown(f"")
-
 # Load the codes and descriptions 
 data = {}
 for code in indicators:
@@ -149,7 +147,7 @@ user_query = st.sidebar.text_input(f"Ask a question about {selected_country}", "
 
 if user_query:
     user_query = user_query.strip() + ". I would like this question to be answered about " + selected_country
-    with st.spinner("Processing answer..."):
+    with st.sidebar.status("Processing answer..."):
         openai_response = query_openai_api(user_query)
         st.sidebar.markdown("""
             **Disclaimer:** The information provided here is intended for informational purposes only. It may not be accurate or up-to-date. Always verify with reliable sources.
@@ -166,7 +164,7 @@ for country in group:
 
 # Disclaimer
 
-st.sidebar.markdown(f"The data presented here is for informational purposes only.  While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.", unsafe_allow_html=True)
+st.sidebar.markdown(f"*The data presented here is for informational purposes only.  While we strive to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.*", unsafe_allow_html=True)
 
 def normalize_dictionary(data):
     # Normalize the nested dictionary data
