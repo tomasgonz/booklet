@@ -1,4 +1,7 @@
+import openai
 import streamlit as st
+import os
+from dotenv import load_dotenv
 import pandas as pd
 from indicators import indicators, load_indicator_country_data_from_cache
 from groups import get_group_countries_name, get_iso3_from_name, get_name_from_iso3, get_fips_from_iso3, get_iso2_from_name
@@ -7,6 +10,18 @@ from quotes import quotes
 import random
 from maps import create_map_from_dms
 from streamlit_folium import st_folium
+
+load_dotenv()
+openai_api_key = os.getenv('OPENAI_API_KEY', st.secrets["openai"]["api_key"])
+def query_openai_api(prompt):
+    response = openai.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {f"role": "system", "content": "You are an assistant that provides detailed country information."},
+            {"role": "user", "content": prompt}
+        ]
+    )
+    return response.choices[0].message.content
 
 # Custom CSS for better font and spacing
 st.markdown("""
@@ -126,6 +141,18 @@ group = get_group_countries_name(group_name.lower())
 group.sort()
 
 selected_country = st.sidebar.selectbox("Select Country", group)
+
+# New section for OpenAI API queries
+user_query = st.sidebar.text_area(f"Ask a question about {selected_country}", "")
+if st.sidebar.button("Submit"):
+    if user_query:
+        user_query = user_query.strip() + ". I would like this question to be answered about " + selected_country
+        with st.spinner("Processing answer..."):
+            openai_response = query_openai_api(user_query)
+            st.sidebar.markdown(f"{openai_response}")
+    else:
+        st.sidrbar.warning("Please enter a query.")
+
 
 st.sidebar.markdown(f"# List of {group_name}")
 

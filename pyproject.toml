@@ -13,6 +13,8 @@ folium = "^0.17.0"
 streamlit-folium = "^0.22.0"
 fpdf = "^1.7.2"
 html2text = "^2024.2.26"
+openai = "^1.40.1"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
