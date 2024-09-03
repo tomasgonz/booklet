@@ -72,10 +72,8 @@ def get_iso3_from_fips(fips):
     return None
 
 def load_country_codes():
-    country_codes = {}
-    with open("cache/Countrycodesfull.json") as f:
+    with open('cache/Countrycodesfull.json', 'r', encoding='utf-8') as f:
         country_codes = json.load(f)
-    
     return country_codes
 
 cache_folder = "cache/groups"

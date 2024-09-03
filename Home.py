@@ -142,19 +142,6 @@ group.sort()
 
 selected_country = st.sidebar.selectbox("Select Country", group)
 
-# New section for OpenAI API queries
-user_query = st.sidebar.text_input(f"Ask a question about {selected_country}", "")
-
-if user_query:
-    user_query = user_query.strip() + ". I would like this question to be answered about " + selected_country
-    with st.sidebar.status("Processing answer..."):
-        openai_response = query_openai_api(user_query)
-        st.sidebar.markdown("""
-            **Disclaimer:** The information provided here is intended for informational purposes only. It may not be accurate or up-to-date. Always verify with reliable sources.
-        """)            
-        st.sidebar.markdown(f"{openai_response}")
-
-
 st.sidebar.markdown(f"# List of {group_name}")
 
 for country in group:
@@ -213,107 +200,118 @@ if selected_country:
     selected_country_profile = get_country_description(selected_country_iso3)
     country_data = load_country_data(selected_country_iso3)
     factbook_data = load_factbook_data(selected_country_fips)
-    
+
     col1, col2 = st.columns([3, 1])
     
     with col1:
-            st.title(f" {selected_country}")
+        st.title(f" {selected_country}")
+        
+        st.markdown(f"{selected_country_profile}", unsafe_allow_html=True)
+
+        with st.container(border=True):
+            user_query = st.text_input(f"**What would you like to know about {selected_country}?**", "")
+
+            if user_query:
+                user_query = user_query.strip() + ". I would like this question to be answered about " + selected_country
+                openai_response = query_openai_api(user_query)
+                st.markdown("""
+                    **Disclaimer:** The information provided here is intended for informational purposes only. It may not be accurate or up-to-date. Always verify with reliable sources.
+                """)            
+                st.markdown(f"{openai_response}")
+
+        st.subheader("Environment")
+
+        st.markdown(f"**Climate**<br>{factbook_data['Environment']['Climate']['text']}", unsafe_allow_html=True)
+
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.KT", group_name.lower(), selected_country)
+        display_chart(indicator_data, "CO2 emissions ((kt))", "World Bank")
+        
+        #st.markdown(f"**Current environmental issues**<br>{factbook_data['Environment']['Environment - current issues']['text']}", unsafe_allow_html=True)
+
+        st.markdown(f"**Party to the following environmental international agreements**<br>{factbook_data['Environment']['Environment - international agreements']['party to']['text']}", unsafe_allow_html=True)
+
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.PC", group_name.lower(), selected_country)
+        display_chart(indicator_data, "CO2 emissions (pc)", "World Bank")
+
+        st.subheader("Labor force")
+        
+        st.markdown(f"**Youth unemployment rate**<br>{factbook_data['Economy']['Youth unemployment rate (ages 15-24)']['total']['text']}", unsafe_allow_html=True)
+
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("SL.TLF.CACT.FM.ZS", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Labor force participation rate for ages 15-24 (% of population)", "World Bank")
+
+        st.markdown(f"**Unemployment rate**<br>{factbook_data['Economy']['Unemployment rate']['Unemployment rate 2023']['text']}", unsafe_allow_html=True)
+        
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("SL.UEM.TOTL.ZS", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Unemployment, total (% of total labor force)", "World Bank")
+
+        st.subheader("Population")
+
+        if 'Population distribution' in factbook_data['People and Society']:
             
-            st.markdown(f"{selected_country_profile}", unsafe_allow_html=True)
+            st.markdown(f"**Population**<br>{factbook_data['People and Society']['Population distribution']['text']}", unsafe_allow_html=True)
+        
+        indicator_data = load_indicator_country_data_from_cache("SP.POP.TOTL", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Population, total", "World Bank")
 
-            st.subheader("Environment")
+        st.subheader("Education")
+        
+        st.markdown(f"**Education expenditure**<br>{factbook_data['People and Society']['Education expenditures']['text']}", unsafe_allow_html=True)
 
-            st.markdown(f"**Climate**<br>{factbook_data['Environment']['Climate']['text']}", unsafe_allow_html=True)
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("SE.PRM.NENR", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Net enrollment rate, primary (% of primary school age children)", "World Bank")
 
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.KT", group_name.lower(), selected_country)
-            display_chart(indicator_data, "CO2 emissions ((kt))", "World Bank")
-            
-            #st.markdown(f"**Current environmental issues**<br>{factbook_data['Environment']['Environment - current issues']['text']}", unsafe_allow_html=True)
+        st.subheader("Connectivity")
+        st.markdown(f"**% connected to internet**<br>{factbook_data['Communications']['Internet users']['percent of population']['text']}", unsafe_allow_html=True)
 
-            st.markdown(f"**Party to the following environmental international agreements**<br>{factbook_data['Environment']['Environment - international agreements']['party to']['text']}", unsafe_allow_html=True)
+        st.markdown(f"**% connected to fixed broadband**<br>{factbook_data['Communications']['Broadband - fixed subscriptions']['subscriptions per 100 inhabitants']['text']}", unsafe_allow_html=True)
 
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("EN.ATM.CO2E.PC", group_name.lower(), selected_country)
-            display_chart(indicator_data, "CO2 emissions (pc)", "World Bank")
+        # Load the data for the selected country
+        indicator_data = load_indicator_country_data_from_cache("IT.NET.BBND.P2", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Fixed broadband subscriptions (per 100 people)", "World Bank")   
 
-            st.subheader("Labor force")
-            
-            st.markdown(f"**Youth unemployment rate**<br>{factbook_data['Economy']['Youth unemployment rate (ages 15-24)']['total']['text']}", unsafe_allow_html=True)
+        st.subheader("Economy")
+        st.markdown(f"**Main manufactured products**<br>{factbook_data['Economy']['Industries']['text']}", unsafe_allow_html=True)
 
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("SL.TLF.CACT.FM.ZS", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Labor force participation rate for ages 15-24 (% of population)", "World Bank")
+        st.markdown(f"**Main agricultural products**<br>{factbook_data['Economy']['Agricultural products']['text']}", unsafe_allow_html=True)
 
-            st.markdown(f"**Unemployment rate**<br>{factbook_data['Economy']['Unemployment rate']['Unemployment rate 2023']['text']}", unsafe_allow_html=True)
-            
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("SL.UEM.TOTL.ZS", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Unemployment, total (% of total labor force)", "World Bank")
+        st.markdown(f"##### Macroecoonomic indicators", unsafe_allow_html=True)
 
-            st.subheader("Population")
+        indicator_data = load_indicator_country_data_from_cache("NY.GDP.MKTP.PP.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "GDP (current US$)", "World Bank")
 
-            if 'Population distribution' in factbook_data['People and Society']:
-                
-                st.markdown(f"**Population**<br>{factbook_data['People and Society']['Population distribution']['text']}", unsafe_allow_html=True)
-            
-            indicator_data = load_indicator_country_data_from_cache("SP.POP.TOTL", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Population, total", "World Bank")
+        indicator_data = load_indicator_country_data_from_cache("NY.GDP.PCAP.PP.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "GDP per capita (current US$)", "World Bank")
 
-            st.subheader("Education")
-            
-            st.markdown(f"**Education expenditure**<br>{factbook_data['People and Society']['Education expenditures']['text']}", unsafe_allow_html=True)
+        indicator_data = load_indicator_country_data_from_cache("FP.CPI.TOTL.ZG", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Inflation, consumer prices (annual %)", "World Bank")
 
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("SE.PRM.NENR", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Net enrollment rate, primary (% of primary school age children)", "World Bank")
+        st.markdown(f"##### Trade", unsafe_allow_html=True)
 
-            st.subheader("Connectivity")
-            st.markdown(f"**% connected to internet**<br>{factbook_data['Communications']['Internet users']['percent of population']['text']}", unsafe_allow_html=True)
+        indicator_data = load_indicator_country_data_from_cache("BN.CAB.XOKA.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Current account balance (current US$)", "World Bank")
 
-            st.markdown(f"**% connected to fixed broadband**<br>{factbook_data['Communications']['Broadband - fixed subscriptions']['subscriptions per 100 inhabitants']['text']}", unsafe_allow_html=True)
+        indicator_data = load_indicator_country_data_from_cache("NE.EXP.GNFS.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Exports of goods and services (current US$)", "World Bank")
 
-            # Load the data for the selected country
-            indicator_data = load_indicator_country_data_from_cache("IT.NET.BBND.P2", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Fixed broadband subscriptions (per 100 people)", "World Bank")   
+        indicator_data = load_indicator_country_data_from_cache("NE.IMP.GNFS.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Imports of goods and services (current US$)", "World Bank")
 
-            st.subheader("Economy")
-            st.markdown(f"**Main manufactured products**<br>{factbook_data['Economy']['Industries']['text']}", unsafe_allow_html=True)
+        st.markdown(f"##### Debt and reserves", unsafe_allow_html=True)
 
-            st.markdown(f"**Main agricultural products**<br>{factbook_data['Economy']['Agricultural products']['text']}", unsafe_allow_html=True)
+        indicator_data = load_indicator_country_data_from_cache("DT.DOD.DECT.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "External debt (current US$)", "World Bank")
 
-            st.markdown(f"##### Macroecoonomic indicators", unsafe_allow_html=True)
+        indicator_data = load_indicator_country_data_from_cache("FI.RES.TOTL.CD", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Total reserves (includes gold, current US$)", "World Bank")
 
-            indicator_data = load_indicator_country_data_from_cache("NY.GDP.MKTP.PP.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "GDP (current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("NY.GDP.PCAP.PP.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "GDP per capita (current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("FP.CPI.TOTL.ZG", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Inflation, consumer prices (annual %)", "World Bank")
-
-            st.markdown(f"##### Trade", unsafe_allow_html=True)
-
-            indicator_data = load_indicator_country_data_from_cache("BN.CAB.XOKA.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Current account balance (current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("NE.EXP.GNFS.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Exports of goods and services (current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("NE.IMP.GNFS.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Imports of goods and services (current US$)", "World Bank")
-
-            st.markdown(f"##### Debt and reserves", unsafe_allow_html=True)
-
-            indicator_data = load_indicator_country_data_from_cache("DT.DOD.DECT.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "External debt (current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("FI.RES.TOTL.CD", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Total reserves (includes gold, current US$)", "World Bank")
-
-            indicator_data = load_indicator_country_data_from_cache("GC.DOD.TOTL.CN", group_name.lower(), selected_country)
-            display_chart(indicator_data, "Central government debt, total (current LCU)", "World Bank")
+        indicator_data = load_indicator_country_data_from_cache("GC.DOD.TOTL.CN", group_name.lower(), selected_country)
+        display_chart(indicator_data, "Central government debt, total (current LCU)", "World Bank")
         
     with col2:
         st.image(f"https://flagcdn.com/w320/{selected_country_iso2.lower()}.png")
