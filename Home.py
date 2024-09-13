@@ -1,5 +1,6 @@
 import openai
 import streamlit as st
+import yaml
 import os
 from dotenv import load_dotenv
 import pandas as pd
@@ -10,6 +11,10 @@ from quotes import quotes
 import random
 from maps import create_map_from_dms
 from streamlit_folium import st_folium
+
+# Load the configuration file
+with open('config.yaml', 'r') as config_file:
+    config = yaml.safe_load(config_file)
 
 load_dotenv()
 openai_api_key = st.secrets["openai"]["api_key"]
@@ -122,11 +127,13 @@ st.markdown("""
     </div>
     """, unsafe_allow_html=True)
 
-#group_name = st.sidebar.selectbox("Select the group of countries", ["LDCs", "LLDCs", "SIDS"])
-group_name = "LLDCs"
+if config['app']['show_group_selector']:
+    # Group selector
+    group_name = st.sidebar.selectbox("Select the group of countries", ["LDCs", "LLDCs", "SIDS", "EU", "OECD", "BRICS", "G7", "G20", "G77"])
+else:
+    group_name = "LLDCs"
 
 # Random quote
-
 quote = quotes[random.randint(0, len(quotes)-1)]
 
 st.sidebar.markdown(f"*{quote['text']}*<br>**{quote['author']}**", unsafe_allow_html=True)
@@ -145,7 +152,7 @@ selected_country = st.sidebar.selectbox("Select Country", group)
 st.sidebar.markdown(f"# List of {group_name}")
 
 for country in group:
-    iso3 = get_iso3_from_name(country, "lldcs")
+    iso3 = get_iso3_from_name(country, group_name.lower())
     flag = get_small_flag(iso3)
     st.sidebar.markdown(f"{flag} {country}")   
 

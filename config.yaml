@@ -1,0 +1,12 @@
+app:
+  group_name: "LLDCs"
+  show_group_selector: true  # Set this to true or false to control group selection
+  sidebar_width: 300
+  css_customizations:
+    main_font: "Arial"
+    h1_font_size: "2.5rem"
+    h1_font_weight: "bold"
+
+display:
+  show_quotes: true
+  display_charts: true
